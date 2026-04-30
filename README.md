@@ -16,15 +16,31 @@ sudo dnf install fastfetch
 
 For other distributions, check the [official repository](https://github.com/fastfetch-cli/fastfetch) for installation instructions.
 
+## Starter Setup
+
+If you want to use this repo as a starter configuration, first `cd ~/.config` and then clone the repo:
+
+```bash
+cd ~/.config
+git clone https://github.com/Anoteros/fastfetch
+```
+
 ## Usage
 
 To run Fastfetch with the provided configuration:
 
 ```bash
-fastfetch --config configs/config.json
+fastfetch
 ```
 
-You can also set it as your default config by placing the `config.json` in `~/.config/fastfetch/` or by using the `--config` flag.
+## Fonts
+
+This configuration uses Nerd Font icons, so you should install a patched font such as **FiraCode Nerd Font** for the icons to display correctly. You can download it from:
+
+- https://www.nerdfonts.com/
+- https://github.com/ryanoasis/nerd-fonts
+
+After installing the font, make sure your terminal is configured to use the patched Nerd Font.
 
 ## Repository Structure
 
