@@ -3,9 +3,12 @@
     "logo": {
         "type": "kitty",
     	"source": "~/.config/fastfetch/logos/image/Anoteros-removebg-preview.png",
-    	"height": 18,
-    	"padding": {
-    		"top": 2
+	"height": 18,
+    "padding": {
+		"top": 3,
+		"bottom": 5,
+		"left": 15,
+		"right": 15
     	}
     },
     "display": {
@@ -24,7 +27,7 @@
         "break",
         {
             "type": "os",
-            "key": " ",
+            "key": " ",
             "keyColor": "34"
         },
         {
@@ -55,40 +58,35 @@
         },
         {
             "type": "display",
-            "key": " ",
+            "key": "󰍹 ",
             "keyColor": "34"
         },
         {
             "type": "cpu",
             "format": "{1}",
-            "key": " ",
+            "key": " ",
             "keyColor": "34"
         },
         {
             "type": "gpu",
             "format": "{2}",
-            "key": " ",
+            "key": "󰢮 ",
             "keyColor": "34"
         },
         {
             "type": "gpu",
             "format": "{3}",
-            "key": " ",
+            "key": " ",
             "keyColor": "34"
         },
         {
              "type": "memory",
-            "key": "﬙ ",
-            "keyColor": "34"
-        },
-        {
-             "type": "swap",
-            "key": "󰾴 ",
+            "key": " ",
             "keyColor": "34"
         },
         {
             "type": "disk",
-            "key": " ",
+            "key": "󰋊 ",
             "keyColor": "34"
         },
         {
